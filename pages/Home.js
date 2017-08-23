@@ -11,52 +11,33 @@ export default class Home extends Component {
             <img src="../static/images/logo.png" className="Content-Logo"/>
           </Col>
           <Col md={22} className="title">
-            <h1>Backendless Firebase Customizeable AdminPage</h1>
+            <h1>Out of The Box Table GUI for Your Firebase Data</h1>
             {/*=========== gif image format bottom tittle ===========*/}
             {/*<div className="demo-crud">
               <img src="../static/images/gif.png" className="content-crud"/>
             </div>*/}
             <Row>
               <Col md={11} className="instant">
-                <h3><Icon type="tool" /> Instant Admin Page Generator</h3>
+                <h3><Icon type="tool" /> Easy Data Management</h3>
                 <p className="instant-content">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less normal
-                  distribution of letters, as opposed to using 'Content here, content here',
-                  making it look like readable English. Many desktop publishing packages and
-                  web page editors now use Lorem Ipsum as their default model text, and a search
-                  for 'lorem ipsum' will uncover many web sites still in their infancy.
-                  Various versions have evolved over the years, sometimes by accident,
-                  sometimes on purpose (injected humour and the like).
+                  Firebase is a good Backend as a Service, but it {"doesn't"} have Graphical User Interface for
+                  managing {"it's"} data. FirebaseTable come to solve those problem by developing an Easy and Intuitive GUI for firebase.
                 </p>
               </Col>
               <Col md={11} className="instant">
                 <h3><Icon type="bar-chart" /> Increase Productivity</h3>
                 <p className="instant-content">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                  It has survived not only five centuries, but also the leap into electronic typesetting,
-                  remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                  sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum.
+                  FirebaseTable make your work easier and faster. Creating text input, text area, table relationship, uploading image and more.
+                  All of those can be easily done with FirebaseTable.
                 </p>
               </Col>
             </Row>
             <Row>
               <Col md={11} className="instant">
-                <h3><Icon type="retweet" /> Easy & Intuitive</h3>
+                <h3><Icon type="retweet" /> Integration</h3>
                 <p className="instant-content" align="jutify">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less normal
-                  distribution of letters, as opposed to using 'Content here, content here',
-                  making it look like readable English. Many desktop publishing packages and
-                  web page editors now use Lorem Ipsum as their default model text, and a search
-                  for 'lorem ipsum' will uncover many web sites still in their infancy.
-                  Various versions have evolved over the years, sometimes by accident,
-                  sometimes on purpose (injected humour and the like).
+                  FirebaseTable output is just a bunch of Firebase Objects that can be used on your Web App and Mobile App easily.
+                  Just like fetching data from Firebase, but with easier data management on backend.
                 </p>
               </Col>
             </Row>
