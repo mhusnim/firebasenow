@@ -57,7 +57,7 @@ export default class Index extends Component {
 			<Layout>
 				<Head>
 					<link rel="shortcut icon" type="image/png" href="../static/images/favicon.ico"/>
-					<title>Firebasenow</title>
+					<title>FirebaseTable</title>
 					<meta charSet='utf-8' />
 					<meta name='viewport' content='initial-scale=1.0, width=device-width' />
 					<link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/antd/2.9.3/antd.min.css' />
@@ -65,7 +65,7 @@ export default class Index extends Component {
 				</Head>
 				<Header {...props} className={`nav ${''} ${affix}`}>
 					<Col md={24} className="navbar">
-						<img src="../static/images/main-logo.png" className="logo"/>
+						<img src="../static/images/logo-firebasetable.png" className="logo"/>
 						<ul className="nav-group">
 							<li className="nav-list"><Link className="nav-button" to="home">Home</Link></li>
 				    	<li className="nav-list"><Link className="nav-button" to="professional">Blog</Link></li>

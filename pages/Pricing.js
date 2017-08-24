@@ -6,8 +6,8 @@ export default class Pricing extends Component {
     return(
       <div>
         <Row>
-          <Col md={22} push={2}>
-            <h1>Pricing</h1>
+          <Col md={24} className="priceBox">
+            <h1 className="priceTitle">Pricing</h1>
             <div className="block-text-center">
               <div className="pricing-section-item pricing-section-free">
                 <div className="pricing-section-top">
