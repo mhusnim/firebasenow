@@ -77,9 +77,10 @@ export default class Home extends Component {
             <h1 classname="fancy">Getting Started</h1>
             <div className="started-group">
               <ol className="started-group-list">
-                <li><p>Register into Firebasenow <a href="http://facebook.com" className="register">click here</a></p></li>
+                <li><p>Create Your Firebase Account if You {"don't"} have one. <a href="https://firebase.google.com/" target="_blank" className="register">click here</a></p></li>
+                <li><p>Sign Up into FirebaseTable. <a href="#" className="register">Sign Up</a></p></li>
                 <li>
-                  <p>Set your Firebase API Token</p>
+                  <p>Set your Firebase API Info on FirebaseTable Settings Page</p>
                   <p><img src="../static/images/token.png" className="token-image"/></p>
                 </li>
                 <li>

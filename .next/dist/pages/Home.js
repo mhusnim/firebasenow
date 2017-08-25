@@ -242,7 +242,7 @@ var Home = function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 80
         }
-      }, 'Register into Firebasenow ', _react2.default.createElement('a', { href: 'http://facebook.com', className: 'register', __source: {
+      }, 'Create Your Firebase Account if You ', "don't", ' have one. ', _react2.default.createElement('a', { href: 'https://firebase.google.com/', target: '_blank', className: 'register', __source: {
           fileName: _jsxFileName,
           lineNumber: 80
         }
@@ -254,96 +254,110 @@ var Home = function (_Component) {
       }, _react2.default.createElement('p', {
         __source: {
           fileName: _jsxFileName,
+          lineNumber: 81
+        }
+      }, 'Sign Up into FirebaseTable. ', _react2.default.createElement('a', { href: '#', className: 'register', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81
+        }
+      }, 'Sign Up'))), _react2.default.createElement('li', {
+        __source: {
+          fileName: _jsxFileName,
           lineNumber: 82
         }
-      }, 'Set your Firebase API Token'), _react2.default.createElement('p', {
+      }, _react2.default.createElement('p', {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 83
+        }
+      }, 'Set your Firebase API Info on FirebaseTable Settings Page'), _react2.default.createElement('p', {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 84
         }
       }, _react2.default.createElement('img', { src: '../static/images/token.png', className: 'token-image', __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 84
         }
       }))), _react2.default.createElement('li', {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 85
-        }
-      }, _react2.default.createElement('p', {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 86
         }
+      }, _react2.default.createElement('p', {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 87
+        }
       }, 'Create your first Table'), _react2.default.createElement('p', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 88
         }
       }, _react2.default.createElement('img', { src: '../static/images/create-table.png', className: 'create-table-gif', __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 88
         }
       }))), _react2.default.createElement('li', {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 89
-        }
-      }, _react2.default.createElement('p', {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 90
         }
-      }, 'Add some column as you need'), _react2.default.createElement('p', {
+      }, _react2.default.createElement('p', {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 91
         }
+      }, 'Add some column as you need'), _react2.default.createElement('p', {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92
+        }
       }, _react2.default.createElement('img', { src: '../static/images/create-table.png', className: 'create-table-gif', __source: {
           fileName: _jsxFileName,
-          lineNumber: 91
+          lineNumber: 92
         }
       }))), _react2.default.createElement('li', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 94
         }
       }, _react2.default.createElement('p', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 95
         }
       }, 'Fetch your data using Firebase SDK or API'), _react2.default.createElement(_antd.Col, { md: 24, __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 96
         }
       }, _react2.default.createElement(_antd.Col, { md: 12, __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 97
         }
       }, _react2.default.createElement(_InputDiv2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 98
         }
       })), _react2.default.createElement(_antd.Col, { md: 12, className: 'output', __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 100
         }
       }, _react2.default.createElement(_OutputDiv2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 101
         }
       }))), _react2.default.createElement('div', { className: 'button-More', __source: {
           fileName: _jsxFileName,
-          lineNumber: 103
+          lineNumber: 104
         }
       }, _react2.default.createElement(_antd.Button, { onClick: function onClick() {
           return window.open('https://firebase.google.com/docs/', '_blank');
         }, type: 'primary', icon: 'eye-o', size: 'large', __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 105
         }
       }, 'Learn More about Firebase'))))))));
     }
