@@ -527,7 +527,7 @@ a.register:hover, a.register:focus {
   padding-left: 20px;
 }
 .output h1{
-  margin-top: 20px;
+  margin-top: 8px;
 }
 .started{
   padding: 0px 90px 20px 90px;
@@ -604,7 +604,7 @@ h1.outputTitle{
 .optionButton{
   float: right;
   text-align: end;
-  padding-top: 25px;
+  padding-top: 13px;
 }
 .input{
   border-right: 1px solid #e3e5ec;
@@ -754,10 +754,21 @@ a.global-header-section-button-primary.active {
 }
 /*#d0744d*/
 .ant-layout-footer {
-    padding: 12px 50px;
-    color: rgb(241, 242, 247);
-    font-size: 14px;
-    border-top: 5px solid #fbdb79;
-    background: #ec8457;
+  padding: 12px 50px;
+  color: rgb(241, 242, 247);
+  font-size: 14px;
+  border-top: 5px solid #fbdb79;
+  background: #ec8457;
+}
+.triangle {
+  background: white;
+  border: 2px solid #e3e5ec;
+  border-width: 1px 1px 0 0;
+  transform: rotate(45deg);
+  position: relative;
+  left: -28px;
+  top: 28px;
+  width: 15px;
+  height: 15px;
 }
 /*===============================================*

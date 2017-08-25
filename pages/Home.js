@@ -138,6 +138,7 @@ export default class Home extends Component {
                   <InputReactDiv />
                 </Col>
                 <Col md={12} className="output">
+                  <div className="triangle"></div>
                   <OutputReactDiv />
                 </Col>
               </TabPane>
@@ -146,6 +147,7 @@ export default class Home extends Component {
                   <InputRNDiv />
                 </Col>
                 <Col md={12} className="output">
+                  <div className="triangle"></div>
                   <OutputRNDiv />
                 </Col>
               </TabPane>
