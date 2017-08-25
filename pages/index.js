@@ -68,9 +68,9 @@ export default class Index extends Component {
 						<img src="../static/images/logo-firebasetable.png" className="logo"/>
 						<ul className="nav-group">
 							<li className="nav-list"><Link className="nav-button" to="home">Home</Link></li>
-				    	<li className="nav-list"><Link className="nav-button" to="professional">Blog</Link></li>
-							<li className="nav-list"><Link className="nav-button" to="experience">Docs</Link></li>
 							<li className="nav-list"><Link className="nav-button" to="price">Pricing</Link></li>
+							<li className="nav-list"><Link className="nav-button">Sign In</Link></li>
+							<li className="nav-list"><Link className="nav-button">Sign Up</Link></li>
 						</ul>
 					</Col>
 		    </Header>
@@ -80,7 +80,7 @@ export default class Index extends Component {
 						<img src="../static/images/gif.png" className="content-crud"/>
 					</div>
 					<div className="scrolling">
-						<p>Bottom</p>
+						<p>Explore FirebaseTable</p>
 						<Link className="button-scroll" to="home."><Icon type="down-circle" /></Link>
 					</div>
 				</Layout>

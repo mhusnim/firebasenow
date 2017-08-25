@@ -132,7 +132,7 @@ var Index = function (_Component) {
 					fileName: _jsxFileName,
 					lineNumber: 60
 				}
-			}, 'Firebasenow'), _react2.default.createElement('meta', { charSet: 'utf-8', __source: {
+			}, 'FirebaseTable'), _react2.default.createElement('meta', { charSet: 'utf-8', __source: {
 					fileName: _jsxFileName,
 					lineNumber: 61
 				}
@@ -156,7 +156,7 @@ var Index = function (_Component) {
 					fileName: _jsxFileName,
 					lineNumber: 67
 				}
-			}, _react2.default.createElement('img', { src: '../static/images/main-logo.png', className: 'logo', __source: {
+			}, _react2.default.createElement('img', { src: '../static/images/logo-firebasetable.png', className: 'logo', __source: {
 					fileName: _jsxFileName,
 					lineNumber: 68
 				}
@@ -176,27 +176,27 @@ var Index = function (_Component) {
 					fileName: _jsxFileName,
 					lineNumber: 71
 				}
-			}, _react2.default.createElement(_rcScrollAnim.Link, { className: 'nav-button', to: 'professional', __source: {
+			}, _react2.default.createElement(_rcScrollAnim.Link, { className: 'nav-button', to: 'price', __source: {
 					fileName: _jsxFileName,
 					lineNumber: 71
 				}
-			}, 'Blog')), _react2.default.createElement('li', { className: 'nav-list', __source: {
+			}, 'Pricing')), _react2.default.createElement('li', { className: 'nav-list', __source: {
 					fileName: _jsxFileName,
 					lineNumber: 72
 				}
-			}, _react2.default.createElement(_rcScrollAnim.Link, { className: 'nav-button', to: 'experience', __source: {
+			}, _react2.default.createElement(_rcScrollAnim.Link, { className: 'nav-button', __source: {
 					fileName: _jsxFileName,
 					lineNumber: 72
 				}
-			}, 'Docs')), _react2.default.createElement('li', { className: 'nav-list', __source: {
+			}, 'Sign In')), _react2.default.createElement('li', { className: 'nav-list', __source: {
 					fileName: _jsxFileName,
 					lineNumber: 73
 				}
-			}, _react2.default.createElement(_rcScrollAnim.Link, { className: 'nav-button', to: 'price', __source: {
+			}, _react2.default.createElement(_rcScrollAnim.Link, { className: 'nav-button', __source: {
 					fileName: _jsxFileName,
 					lineNumber: 73
 				}
-			}, 'Pricing'))))), _react2.default.createElement(_antd.Layout, { id: 'home', __source: {
+			}, 'Sign Up'))))), _react2.default.createElement(_antd.Layout, { id: 'home', __source: {
 					fileName: _jsxFileName,
 					lineNumber: 78
 				}
@@ -217,7 +217,7 @@ var Index = function (_Component) {
 					fileName: _jsxFileName,
 					lineNumber: 83
 				}
-			}, 'Bottom'), _react2.default.createElement(_rcScrollAnim.Link, { className: 'button-scroll', to: 'home.', __source: {
+			}, 'Explore FirebaseTable'), _react2.default.createElement(_rcScrollAnim.Link, { className: 'button-scroll', to: 'home.', __source: {
 					fileName: _jsxFileName,
 					lineNumber: 84
 				}

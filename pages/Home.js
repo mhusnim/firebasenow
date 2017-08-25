@@ -56,18 +56,17 @@ export default class Home extends Component {
         <Row>
           <div className="mailGroup">
             <div className="mailBox">
-              <h3 className="headBox">Power your team with Airtable</h3>
+              <h3 className="headBox">Increase Your Productivity with FirebaseTable</h3>
               <Form layout="inline">
                  <FormItem>
-                     <Input placeholder="Basic usage" className="emailForm"/>
+                     <Input placeholder="Your Email" className="emailForm" type="email"/>
                  </FormItem>
                  <FormItem>
                    <Button type="primary" className="mailButton" >Sign up for free</Button>
                  </FormItem>
                </Form>
                <p>
-                  Airtable is free to use for teams of any size. We also offer paid plans with additional features,
-                 storage and support.
+                  FirebaseTable is free to use. We also offer paid plans with additional features, and support.
                </p>
             </div>
           </div>
@@ -102,7 +101,7 @@ export default class Home extends Component {
                     </Col>
                   </Col>
                   <div className="button-More">
-                    <Button type="primary" icon="eye-o" size="large">View More on Docs</Button>
+                    <Button onClick={()=> window.open('https://firebase.google.com/docs/', '_blank')} type="primary" icon="eye-o" size="large">Learn More about Firebase</Button>
                   </div>
                 </li>
               </ol>
