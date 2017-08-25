@@ -12,7 +12,7 @@ export default class Pricing extends Component {
               <div className="pricing-section-item pricing-section-free">
                 <div className="pricing-section-top">
                   <h1>Free</h1>
-                  <p className="pricing-section-item-description" style={{margin: '1.75em 1em 1em'}}>
+                  <p className="pricing-section-item-description" style={{margin: '3.9em 1em 1.6em'}}>
                      A simple and powerful way to get things done.
                   </p>
                   <span className="pricing-section-price">-</span>
@@ -35,7 +35,7 @@ export default class Pricing extends Component {
                      No Limit, just worked
                   </p>*/}
                   <span className="pricing-section-price">$9.99</span>
-                  <p className="pricing-section-quiet">$6.5 per user/month (when paid annually)</p>
+                  <p className="pricing-section-quiet"><span className="PricePerMounth">$6.5</span> per user/month (when paid annually)</p>
                   <a href="#" className="global-header-section-button-primary"><strong>Upgrade</strong></a>
                 </div>
                 <div className="pricing-section-bottom">

@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import Head from 'next/head';
-import { Layout, Col, Icon} from 'antd';
+import { Layout, Col, Icon, Button} from 'antd';
 const { Header } = Layout;
 
 import Home from './Home';
@@ -70,14 +70,14 @@ export default class Index extends Component {
 							<li className="nav-list"><Link className="nav-button" to="home">Home</Link></li>
 							<li className="nav-list"><Link className="nav-button" to="price">Pricing</Link></li>
 							<li className="nav-list"><Link className="nav-button">Sign In</Link></li>
-							<li className="nav-list"><Link className="nav-button">Sign Up</Link></li>
+							<li className="nav-list buttonList"><Button type="primary">Sign Up</Button></li>
 						</ul>
 					</Col>
 		    </Header>
 
 			  <Layout id="home">
 					<div className="demo-crud">
-						<img src="../static/images/gif.png" className="content-crud"/>
+						<img src="../static/images/TwitGif.gif" className="content-crud"/>
 					</div>
 					<div className="scrolling">
 						<p>Explore FirebaseTable</p>

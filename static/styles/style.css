@@ -35,14 +35,16 @@ body{
 .ant-tabs-nav .ant-tabs-tab:active,
 .ant-tabs-nav .ant-tabs-tab.active,
 .ant-tabs-nav .abt-tabs-tab:focus {
-  color: #ed8e65;
-  border: 1px solid #00BCD4;
+    border: 1px solid #e4e2e2;
+    border-radius: 10px;
+    color: #7b7b7b;
+    background: #eeeeee;
 }
 .ant-tabs.ant-tabs-card>.ant-tabs-bar .ant-tabs-tab-active {
   color: #ed8e65;
 }
 .ant-tabs-nav .ant-tabs-tab {
-  color: #8a8a8c;
+  color: #a3a3a5;
 }
 .ant-btn-primary{
   color: #f3f4f8;
@@ -50,8 +52,8 @@ body{
   background: #ec8457;
 }
 .ant-btn-primary:hover, .ant-btn-primary:focus {
-  background: #0b3b8c;
-  border: 1px solid #0b3b8c;
+  background: #ca673d;
+  border: 1px solid #a04f28;
   color: #d5d6d8;
 }
 /*.ant-btn-primary:focus, .ant-btn-primary:hover
@@ -183,7 +185,40 @@ body{
   width: 100%;
   height: auto;
 }
-
+.fancy{
+  margin-top: 20px;
+}
+.SubFancy{
+  color: #a3a3a5;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.root>ul>li {
+    list-style: circle;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.root>ul{
+  margin-top: 25px;
+}
+.root>ul>li>span{
+  color: #a7a7a9;
+}
+.imageOutBox{
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.outRN{
+  display: inline-block;
+  text-align: center;
+  width: 80%;
+}
+.PricePerMounth{
+  font-size: 18px;
+}
 /* ==================== Landing ================== */
 .Landing{
   background-color: #f3f4f8;
@@ -191,9 +226,10 @@ body{
   box-shadow: 0px 0px 10px #d0caca;
 }
 .Content-Logo{
-  width: 50px;
+  width: 60px;
   height: auto;
   display: block;
+  margin-top: -10px;
 }
 .title{
   margin-top: 20px;
@@ -258,7 +294,9 @@ a.register{
 }
 a.register:hover, a.register:focus {
   height: 10px;
-  background: #0b3b8c;
+  /*background: #0b3b8c;
+  color: #d5d6d8;*/
+  background: #ca673d;
   color: #d5d6d8;
 }
 .token-image{
@@ -331,17 +369,17 @@ a.register:hover, a.register:focus {
   margin-bottom: 10px;
   color: #ed875b;
 }
-.mobile-title, .web-title{
+.schema-title, .client-title{
   text-align: left;
   /*margin-top: 15px;*/
   margin-bottom: 10px;
   color: #ed875b;
 }
-.web-output{
-  margin-top: 25px;
+.client-output{
+  margin-top: 12px;
 }
-.mobile-output{
-  margin-top: 25px;
+.schema-output{
+  margin-top: 12px;
 }
 .right-arrow{
   text-align: left;
@@ -445,8 +483,22 @@ a.register:hover, a.register:focus {
   border-right: 1px solid #dcdcdc;
 }
 .ant-tabs-nav {
-  float: left;
+  float: none;
   padding: 0px;
+  text-align: center;
+}
+.ant-tabs-nav .ant-tabs-tab-active {
+  background: #eee;
+  color: #7b7b7b;
+  border: #8a8a8c;
+}
+.ant-tabs-nav-wrap {
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+.ant-tabs-nav .ant-tabs-tab {
+  margin-right: 10px;
+  padding: 3px 30px;
 }
 .InstallationBlock{
   display: block;
@@ -492,6 +544,77 @@ h1.outputTitle{
   border: 1px solid #ec8457;
   color: #ec8457;
 }
+/*.ButtonInput{
+  margin-top: 20px;
+}*/
+.ant-radio-group.ButtonInput .ant-radio-button-wrapper:first-child {
+    border-radius: 10px 0 0 10px;
+}
+.ant-radio-group.ButtonInput .ant-radio-button-wrapper:last-child {
+    border-radius: 0 10px 10px 0;
+}
+.ant-radio-button-wrapper {
+    border: 1.25px solid #d67040;
+    color: #d67040;
+}
+.ant-radio-button-wrapper:first-child {
+    border-left: 1.25px solid #dc855c;
+}
+.ant-radio-button-wrapper:active, .ant-radio-button-wrapper.active,
+.ant-radio-button-wrapper:visited, .ant-radio-button-wrapper:hover,
+.ant-radio-button-wrapper:focus{
+  background: #dc855c;
+  color: #eee;
+}
+.linkToOthers:first-child{
+  margin-right: 20px;
+}
+.linkToOthers:last-child{
+  margin-right: 0px;
+}
+.linkToOthers{
+  text-align: right;
+  margin-top: 20px;
+  color: #dc855c;
+}
+.linkToOthers:hover, .linkToOthers:focus{
+  text-decoration: underline;
+  color: #dc855c;
+}
+.optionButton{
+  float: right;
+  text-align: end;
+  padding-top: 25px;
+}
+.input{
+  border-right: 1px solid #e3e5ec;
+  margin-top: 5px;
+  padding: 20px 20px 20px 0;
+}
+/*.ant-btn.ant-btn-primary.ant-radio-button-wrapper:first-child {
+    border-radius: 10px 0 0 10px;
+}
+.ant-btn.ant-btn-primary.ant-radio-button-wrapper:last-child{
+    border-radius: 0 10px 10px 0;
+}
+.ant-btn-group .ant-btn-primary:first-child:not(:last-child){
+    border-right-color: #e17a4b;
+}
+.ant-btn-group .ant-btn-primary+.ant-btn-primary,
+.ant-btn-group .ant-btn-primary:last-child:not(:first-child){
+   border-left-color: #e17a4b;
+}
+.ant-btn-primary.ant-radio-button-wrapper{
+  background-color: transparent;
+  border: 1px solid #e17a4b;
+  color: #e17a4b;
+}
+.ant-btn-primary.ant-radio-button-wrapper:active, .ant-btn-primary.ant-radio-button-wrapper.active,
+.ant-btn-primary.ant-radio-button-wrapper:focus, .ant-btn-primary.ant-radio-button-wrapper:hover,
+.ant-btn-primary.ant-radio-button-wrapper:visited {
+  background: #e17a4b;
+  color: #eee;
+}*/
 /*========================================= Price ======================================*/
 .Price{
   background-color: #f3f4f8;
@@ -566,7 +689,7 @@ h1.outputTitle{
   display: block;
 }
 .pricing-section-quiet{
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 20px;
 }
 .pricing-section-quiet-enterprise{
@@ -601,3 +724,5 @@ a.global-header-section-button-primary.active {
   box-shadow: 0 2px 0 #825304;
 }
 /*#d0744d*/
+
+/*===============================================*

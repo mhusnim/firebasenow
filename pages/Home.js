@@ -1,10 +1,30 @@
 import React, { Component, PropTypes } from 'react';
-import { Layout, Col, Row, Button, Icon, Input, Form} from 'antd';
+import { Layout, Col, Row, Button, Icon, Input, Form, Radio, Tabs} from 'antd';
 const { TextArea } = 'Input';
 const FormItem = Form.Item;
 
-import InputDiv from './InputDiv';
-import OutputDiv from './OutputDiv';
+import InputReactDiv from './InputReactDiv';
+import OutputReactDiv from './OutputReactDiv';
+import InputRNDiv from './InputRNDiv';
+import OutputRNDiv from './OutputRNDiv';
+
+const TabPane = Tabs.TabPane;
+
+function callback(key) {
+  console.log(key);
+}
+
+const react =(
+  <div>
+
+  </div>
+)
+
+const reactNative =(
+  <div>
+
+  </div>
+)
 
 export default class Home extends Component {
   render() {
@@ -85,22 +105,44 @@ export default class Home extends Component {
                 </li>
                 <li>
                   <p>Create your first Table</p>
-                  <p><img src="../static/images/create-table.png" className="create-table-gif"/></p>
+                  <p><img src="../static/images/gif-twitter.gif" className="create-table-gif"/></p>
                 </li>
                 <li>
                   <p>Add some column as you need</p>
-                  <p><img src="../static/images/create-table.png" className="create-table-gif"/></p>
+                  <p><img src="../static/images/gif-twitter.gif" className="create-table-gif"/></p>
                 </li>
                 <li>
                   <p>Fetch your data using Firebase SDK or API</p>
                   <Col md={24}>
-                    <Col md={12}>
-                      <InputDiv />
-                    </Col>
-                    <Col md={12} className="output">
-                      <OutputDiv />
-                    </Col>
+                    <div>
+                      <h1 classname="fancy">Queries</h1>
+                      <h4 className="SubFancy">
+                        Apollo makes fetching the exact data you need for your component
+                        easy and allows you to put your queries exactly where you need them.
+                      </h4>
+                    </div>
+                    <Tabs defaultActiveKey="1" onChange={callback}>
+                      <TabPane tab="React" key="1">
+                        <Col md={12} className="input">
+                          <InputReactDiv />
+                        </Col>
+                        <Col md={12} className="output">
+                          <OutputReactDiv />
+                        </Col>
+                      </TabPane>
+                      <TabPane tab="React Native" key="2">
+                        <Col md={12} className="input">
+                          <InputRNDiv />
+                        </Col>
+                        <Col md={12} className="output">
+                          <OutputRNDiv />
+                        </Col>
+                      </TabPane>
+                    </Tabs>
+
+
                   </Col>
+
                   <div className="button-More">
                     <Button onClick={()=> window.open('https://firebase.google.com/docs/', '_blank')} type="primary" icon="eye-o" size="large">Learn More about Firebase</Button>
                   </div>
@@ -109,49 +151,6 @@ export default class Home extends Component {
             </div>
           </div>
         </Row>
-
-        {/*<Row>
-          <Col md={22} push={2}>
-
-            <Col md={24} xs={24}>
-              <Col md={8} xs={8}>
-                <div className="left-box">
-                  <img src="../static/images/leftward.svg" style={{marginTop: 70}} className="leftward"/>
-                </div>
-              </Col>
-              <Col md={8} xs={8}>
-                <h3 className="Json-title">JSON / Firebase obj</h3>
-                <div className="command">
-                  <p>npm instal xxxxxxxxxxx-xxxx</p>
-                  <p>npm run dev</p>
-                </div>
-              </Col>
-              <Col md={8} xs={8}>
-                <div className="right-box">
-                  <img src="../static/images/rightward.svg" style={{marginTop: 70}} className="rightward"/>
-                </div>
-              </Col>
-            </Col>
-            <Col md={24}>
-              <Col md={12} xs={12}>
-                <div className="web-output">
-                  <h3 className="web-title">Web</h3>
-                  <div className="command">
-                    <p>This is place code</p>
-                  </div>
-                </div>
-              </Col>
-              <Col md={12} xs={12}>
-                <div className="mobile-output">
-                  <h3 className="mobile-title">Mobile</h3>
-                  <div className="command">
-                    <p>This is place code</p>
-                  </div>
-                </div>
-              </Col>
-            </Col>
-          </Col>
-        </Row>*/}
       </div>
     )
   }
