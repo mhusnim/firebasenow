@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import Head from 'next/head';
 import { Layout, Col, Icon, Button} from 'antd';
-const { Header } = Layout;
+const { Header, Footer } = Layout;
 
 import Home from './Home';
 import Pricing from './Pricing';
@@ -92,6 +92,9 @@ export default class Index extends Component {
 				<Layout className="Price" id="price">
 					<Pricing />
 				</Layout>
+				<Footer style={{ textAlign: 'center' }}>
+		      ©2016 Created by FirebaseTable Team
+		    </Footer>
 			</Layout>
 		)
 	}

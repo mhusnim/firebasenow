@@ -10,6 +10,7 @@ body{
 }
 .ant-tabs-bar {
     border-bottom: none;
+    margin-bottom: 30px;
 }
 .ant-tabs-nav {
     float: none;
@@ -192,7 +193,7 @@ body{
   color: #a3a3a5;
   text-align: center;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .root>ul>li {
     list-style: circle;
@@ -307,14 +308,33 @@ a.register:hover, a.register:focus {
   border-radius: 10px;
   border: 1px solid #d0d0d0;
 }
+.queries{
+  background: #fff;
+  position: relative;
+  padding: 45px;
+  border-radius: 6px;
+  margin-top: 5px;
+  box-shadow: 1px 7px 10px #d9dbe2;
+}
+.queries h1{
+  text-align: center;
+  font-size: 30px;
+}
 .create-table-gif{
-  width: auto;
-  min-height: 150px;
-  max-height: 300px;
-  border-radius: 10px;
+  width: 93%;
+  /*min-height: 150px;
+  max-height: 300px;*/
+  /*border-radius: 10px;*/
   border: 1px solid #d0d0d0;
   margin-bottom: 5px;
   margin-top: 10px;
+}
+.StratedLeftSide{
+  /*border-right: 1px solid #e3e5ec;*/
+}
+.StratedRightSide{
+  /*margin-left: 10px;*/
+
 }
 .javascript-group{
   margin-top: 15px;
@@ -434,7 +454,7 @@ a.register:hover, a.register:focus {
   display: block;
   margin-top: 30px;
   /*margin-bottom: 30px;*/
-  background: #ffb392;
+  background: #ec8457;
 }
 .mailBox{
   padding: 1rem 2rem 2rem 2rem;
@@ -522,7 +542,7 @@ a.register:hover, a.register:focus {
 .star{
   background: #fff;
   position: relative;
-  padding: 45px 35px;
+  padding: 45px 20px;
   border-radius: 6px;
   margin-top: -8%;
   box-shadow: 1px 7px 10px #d9dbe2;
@@ -618,7 +638,16 @@ h1.outputTitle{
 /*========================================= Price ======================================*/
 .Price{
   background-color: #f3f4f8;
-  padding: 50px 80px 30px 80px;
+  /*padding: 50px 80px 30px 80px;*/
+  padding: 0px 90px 20px 90px;
+}
+.priceBox{
+  background: #fff;
+  position: relative;
+  padding: 45px;
+  border-radius: 6px;
+  margin-top: 5px;
+  box-shadow: 1px 7px 10px #d9dbe2;
 }
 .priceTitle{
   text-align: center;
@@ -724,5 +753,11 @@ a.global-header-section-button-primary.active {
   box-shadow: 0 2px 0 #825304;
 }
 /*#d0744d*/
-
+.ant-layout-footer {
+    padding: 12px 50px;
+    color: rgb(241, 242, 247);
+    font-size: 14px;
+    border-top: 5px solid #fbdb79;
+    background: #ec8457;
+}
 /*===============================================*

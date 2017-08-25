@@ -97,59 +97,64 @@ export default class Home extends Component {
             <h1 classname="fancy">Getting Started</h1>
             <div className="started-group">
               <ol className="started-group-list">
-                <li><p>Create Your Firebase Account if You {"don't"} have one. <a href="https://firebase.google.com/" target="_blank" className="register">click here</a></p></li>
-                <li><p>Sign Up into FirebaseTable. <a href="#" className="register">Sign Up</a></p></li>
-                <li>
-                  <p>Set your Firebase API Info on FirebaseTable Settings Page</p>
-                  <p><img src="../static/images/token.png" className="token-image"/></p>
-                </li>
-                <li>
-                  <p>Create your first Table</p>
-                  <p><img src="../static/images/gif-twitter.gif" className="create-table-gif"/></p>
-                </li>
-                <li>
-                  <p>Add some column as you need</p>
-                  <p><img src="../static/images/gif-twitter.gif" className="create-table-gif"/></p>
-                </li>
-                <li>
-                  <p>Fetch your data using Firebase SDK or API</p>
-                  <Col md={24}>
-                    <div>
-                      <h1 classname="fancy">Queries</h1>
-                      <h4 className="SubFancy">
-                        Apollo makes fetching the exact data you need for your component
-                        easy and allows you to put your queries exactly where you need them.
-                      </h4>
-                    </div>
-                    <Tabs defaultActiveKey="1" onChange={callback}>
-                      <TabPane tab="React" key="1">
-                        <Col md={12} className="input">
-                          <InputReactDiv />
-                        </Col>
-                        <Col md={12} className="output">
-                          <OutputReactDiv />
-                        </Col>
-                      </TabPane>
-                      <TabPane tab="React Native" key="2">
-                        <Col md={12} className="input">
-                          <InputRNDiv />
-                        </Col>
-                        <Col md={12} className="output">
-                          <OutputRNDiv />
-                        </Col>
-                      </TabPane>
-                    </Tabs>
-
-
-                  </Col>
-
-                  <div className="button-More">
-                    <Button onClick={()=> window.open('https://firebase.google.com/docs/', '_blank')} type="primary" icon="eye-o" size="large">Learn More about Firebase</Button>
-                  </div>
-                </li>
+                <Col md={12} sm={12} xs={24} className="StratedLeftSide">
+                  <li><p>Create Your Firebase Account if You {"don't"} have one. <a href="https://firebase.google.com/" target="_blank" className="register">click here</a></p></li>
+                  <li><p>Sign Up into FirebaseTable. <a href="#" className="register">Sign Up</a></p></li>
+                  <li>
+                    <p>Set your Firebase API Info on FirebaseTable Settings Page</p>
+                    <p><img src="../static/images/token.png" className="token-image"/></p>
+                  </li>
+                  <li>
+                    <p>Create your first Table</p>
+                    <p><img src="../static/images/gif-twitter.gif" className="create-table-gif"/></p>
+                  </li>
+                </Col>
+                <Col md={12} sm={12} xs={24} className="StratedRightSide">
+                  <li>
+                    <p>Add some column as you need</p>
+                    <p><img src="../static/images/gif-twitter.gif" className="create-table-gif"/></p>
+                  </li>
+                  <li>
+                    <p>Fetch your data using Firebase SDK or API</p>
+                  </li>
+                </Col>
               </ol>
             </div>
           </div>
+        </Row>
+
+        <Row className="started">
+          <Col md={24} className="queries">
+            <div>
+              <h1 classname="fancy">Queries</h1>
+              <h4 className="SubFancy">
+                Apollo makes fetching the exact data you need for your component
+                easy and allows you to put your queries exactly where you need them.
+              </h4>
+            </div>
+            <Tabs defaultActiveKey="1" onChange={callback}>
+              <TabPane tab="React" key="1">
+                <Col md={12} className="input">
+                  <InputReactDiv />
+                </Col>
+                <Col md={12} className="output">
+                  <OutputReactDiv />
+                </Col>
+              </TabPane>
+              <TabPane tab="React Native" key="2">
+                <Col md={12} className="input">
+                  <InputRNDiv />
+                </Col>
+                <Col md={12} className="output">
+                  <OutputRNDiv />
+                </Col>
+              </TabPane>
+            </Tabs>
+
+            <div className="button-More">
+              <Button onClick={()=> window.open('https://firebase.google.com/docs/', '_blank')} type="primary" icon="eye-o" size="large">Learn More about Firebase</Button>
+            </div>
+          </Col>
         </Row>
       </div>
     )
