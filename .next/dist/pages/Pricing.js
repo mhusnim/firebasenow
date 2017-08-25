@@ -82,7 +82,7 @@ var Pricing = function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 14
         }
-      }, 'Free'), _react2.default.createElement('p', { className: 'pricing-section-item-description', style: { margin: '1.75em 1em 1em' }, __source: {
+      }, 'Free'), _react2.default.createElement('p', { className: 'pricing-section-item-description', style: { margin: '3.9em 1em 1.6em' }, __source: {
           fileName: _jsxFileName,
           lineNumber: 15
         }
@@ -134,7 +134,11 @@ var Pricing = function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 38
         }
-      }, '$6.5 per user/month (when paid annually)'), _react2.default.createElement('a', { href: '#', className: 'global-header-section-button-primary', __source: {
+      }, _react2.default.createElement('span', { className: 'PricePerMounth', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
+        }
+      }, '$6.5'), ' per user/month (when paid annually)'), _react2.default.createElement('a', { href: '#', className: 'global-header-section-button-primary', __source: {
           fileName: _jsxFileName,
           lineNumber: 39
         }

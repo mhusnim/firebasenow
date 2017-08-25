@@ -8,6 +8,8 @@ import OutputReactDiv from './OutputReactDiv';
 import InputRNDiv from './InputRNDiv';
 import OutputRNDiv from './OutputRNDiv';
 
+import { Link } from 'rc-scroll-anim';
+
 const TabPane = Tabs.TabPane;
 
 function callback(key) {
@@ -98,7 +100,7 @@ export default class Home extends Component {
             <div className="started-group">
               <ol className="started-group-list">
                 <Col md={12} sm={12} xs={24} className="StratedLeftSide">
-                  <li><p>Create Your Firebase Account if You {"don't"} have one. <a href="https://firebase.google.com/" target="_blank" className="register">click here</a></p></li>
+                  <li><p>Create Your Firebase Project if You {"don't"} have one. <a href="https://console.firebase.google.com/" target="_blank" className="register">click here</a></p></li>
                   <li><p>Sign Up into FirebaseTable. <a href="#" className="register">Sign Up</a></p></li>
                   <li>
                     <p>Set your Firebase API Info on FirebaseTable Settings Page</p>
@@ -115,7 +117,8 @@ export default class Home extends Component {
                     <p><img src="../static/images/gif-twitter.gif" className="create-table-gif"/></p>
                   </li>
                   <li>
-                    <p>Fetch your data using Firebase SDK or API</p>
+                    <p>Fetch or Mutate your data using Firebase SDK or API</p>
+                    <Link to="queries">Firebase Queries - See Example Below</Link>
                   </li>
                 </Col>
               </ol>
@@ -128,12 +131,11 @@ export default class Home extends Component {
             <div>
               <h1 classname="fancy">Queries</h1>
               <h4 className="SubFancy">
-                Apollo makes fetching the exact data you need for your component
-                easy and allows you to put your queries exactly where you need them.
+                Because FirebaseTable output is just a bunch of Firebase Object, you can use Query just exactly like normal Firebase Query.
               </h4>
             </div>
             <Tabs defaultActiveKey="1" onChange={callback}>
-              <TabPane tab="React" key="1">
+              <TabPane tab="Web" key="1">
                 <Col md={12} className="input">
                   <InputReactDiv />
                 </Col>

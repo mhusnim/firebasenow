@@ -60,7 +60,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var _jsxFileName = '/Users/radiegtya/Documents/react-apps/firebasenow/pages/index.js?entry';
 
-var Header = _antd.Layout.Header;
+var Header = _antd.Layout.Header,
+    Footer = _antd.Layout.Footer;
 
 var Index = function (_Component) {
 	(0, _inherits3.default)(Index, _Component);
@@ -188,11 +189,11 @@ var Index = function (_Component) {
 					fileName: _jsxFileName,
 					lineNumber: 72
 				}
-			}, 'Sign In')), _react2.default.createElement('li', { className: 'nav-list', __source: {
+			}, 'Sign In')), _react2.default.createElement('li', { className: 'nav-list buttonList', __source: {
 					fileName: _jsxFileName,
 					lineNumber: 73
 				}
-			}, _react2.default.createElement(_rcScrollAnim.Link, { className: 'nav-button', __source: {
+			}, _react2.default.createElement(_antd.Button, { type: 'primary', __source: {
 					fileName: _jsxFileName,
 					lineNumber: 73
 				}
@@ -204,7 +205,7 @@ var Index = function (_Component) {
 					fileName: _jsxFileName,
 					lineNumber: 79
 				}
-			}, _react2.default.createElement('img', { src: '../static/images/gif.png', className: 'content-crud', __source: {
+			}, _react2.default.createElement('img', { src: '../static/images/TwitGif.gif', className: 'content-crud', __source: {
 					fileName: _jsxFileName,
 					lineNumber: 80
 				}
@@ -243,7 +244,11 @@ var Index = function (_Component) {
 					fileName: _jsxFileName,
 					lineNumber: 93
 				}
-			})));
+			})), _react2.default.createElement(Footer, { style: { textAlign: 'center' }, __source: {
+					fileName: _jsxFileName,
+					lineNumber: 95
+				}
+			}, '\xA92016 Created by FirebaseTable Team'));
 		}
 	}]);
 
